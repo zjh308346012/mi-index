@@ -1,0 +1,219 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.top {
+    height: 50px;
+    width: 100%;
+    background-color: black;
+}
+.top_left {
+    float: left;
+    margin-left: 200px;
+    padding-top: 13px;
+}
+.top_left li {
+    float: left;
+    color: #fff;
+    padding: 0 5px;
+    font-size: 12px;
+}
+.top_right {
+    float: right;
+    padding-top: 13px;
+    margin-right: 200px;
+}
+.top_right li {
+    float: right;
+    color: #fff;
+    font-size: 12px;
+    padding: 0 5px;
+}
+/* logo开始 */
+.logo {
+    height: 120px;
+    width: 100%;
+    background-color: #fff;
+}
+.logo_left {
+    float: left;
+    width: 150px;
+    height: 60px;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.logo_left img {
+   width: 100%;
+   height: 100%;
+}
+.logo_right {
+    float: right;
+}
+.logo_right li {
+    float: left;
+    margin-top: 40px;
+    margin-right: 80px;
+}
+.logo_right li a {
+    color: #000;
+}
+/* logo结束 */
+/* nav开始 */
+.nav {
+    position: relative;
+    width: 100%;
+    height: 700px;
+    background: url('../images/index_banner.jpg')no-repeat;
+}
+.nav .w {
+    position: absolute;
+    top: 100px;
+    left: 40%;
+}
+.nav .w h2 {
+    font-weight: 500;
+    font-size: 50px;
+    color: #fff;
+}
+.nav .w .i {
+    text-align: center;
+    width: 243px;
+    height: 57px;
+    line-height: 57px;
+    margin-top: 20px;
+    margin-left: 110px;
+    font-size: 20px;
+    background-color: red;
+    color: #fff;
+}
+/* nav结束 */
+/* buttom开始 */
+.buttom {
+    display: flex;
+    position: absolute;
+    width: 1100px;
+    height: 350px;
+    top: 727px;
+    left: 20%;
+    font-size: 25px;
+    color: bisque;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+.buttom_left {
+    position: relative;
+    width: 340px;
+    height: 120px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background: url('../images/1.png')no-repeat;
+    border: 1px solid #ccc;
+}
+.buttom_center {
+    width: 340px;
+    height: 120px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background: url('../images/1.png')no-repeat;
+    border: 1px solid #ccc;
+}
+.buttom_right {
+    width: 340px;
+    height: 120px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background: url('../images/1.png')no-repeat;
+}
+.ac {
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.bc {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.dc {
+    margin-top: 40px;
+    margin-left: 10px;
+    font-size: 16px;
+}
+.item1 span {
+    color: #ea5600;
+}
+.item2 span {
+    color: #4481c8;
+}
+.item3 span {
+    color: #0db27b;
+}
+i {
+    font-style: normal;
+    color: #666666;
+}
+.more {
+    margin: 40px auto;
+}
+.more {
+    text-align: center;
+    width: 300px;
+    height: 40px;
+    line-height: 40px;
+    border-top: 1px solid #ccc;
+    color: #fd3911;
+}
+/* buttom结束 */
+/* last开始 */
+.icon {
+    position: absolute;
+    top: 200px;
+    left: 50px;
+    width: 40px;
+    height: 40px;
+}
+/* last结束 */
+.last {
+    position: absolute;
+    top: 1200px;
+    margin-left: 120px;
+}
+.last-left {
+    float: left;
+    margin-left: 50px;
+}
+.last-right {
+    float: right;
+    margin-left: 250px;
+}
+.or {
+    float: left;
+    width: 46px;
+    height: 46px;
+}
+.or img {
+    width: 100%;
+    height: 100%;
+}
+.tr {
+    float: left;
+    margin-left: 10px;
+}
+.tr p {
+    margin-bottom: 10px;
+}
+.last-right p {
+    font-size: 20px;
+}
+.last-right h4 {
+    font-size: 20px;
+    color: #fd3911;
+}
+.last-right span {
+    font-size: 12px;
+}

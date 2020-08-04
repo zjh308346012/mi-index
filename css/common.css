@@ -1,0 +1,721 @@
+.w {
+  width: 1200px;
+  margin: 0 auto;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 3000px;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #7e887c;
+}
+input {
+  outline: none;
+}
+.w {
+  width: 1220px;
+  margin: 0 auto;
+}
+.clearfix:after {
+  content: '';
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.clearfix:after {
+  *zoom: 1;
+}
+.header {
+  height: 40px;
+  background-color: #333333;
+}
+.nav li {
+  float: left;
+  height: 40px;
+  line-height: 40px;
+  margin-right: 10px;
+}
+.nav li a {
+  display: inline-block;
+  height: 12px;
+  line-height: 12px;
+  text-align: center;
+  font-size: 12px;
+  color: #b0b0b0;
+  border-right: 1px solid #b0b0b0;
+  padding-right: 10px;
+}
+.nav .last {
+  border-right: 0;
+}
+.user {
+  float: left;
+  height: 40px;
+  width: 260px;
+  margin-left: 170px;
+}
+.user li {
+  float: left;
+  height: 40px;
+  line-height: 40px;
+  margin-right: 18px;
+}
+.user li a {
+  font-size: 12px;
+  height: 12px;
+  line-height: 12px;
+  color: #b0b0b0;
+}
+.user .buycar {
+  float: left;
+  width: 104px;
+  height: 40px;
+  background-color: #424242;
+}
+.user .buycar a {
+  display: inline-block;
+  width: 100px;
+  height: 40px;
+  line-height: 40px;
+  font-family: "icomoon";
+  text-align: center;
+  font-size: 12px;
+  color: #b0b0b0;
+}
+.banner-hd {
+  height: 100px;
+}
+.logo {
+  float: left;
+  width: 49px;
+  height: 49px;
+  background-color: #ff6700;
+  margin-top: 24px;
+}
+.nav-hd ul {
+  float: left;
+  width: 650px;
+  margin-left: 190px;
+}
+.nav-hd li {
+  float: left;
+  height: 100px;
+  line-height: 100px;
+  margin-right: 25px;
+}
+.nav-hd li a {
+  display: inline-block;
+  height: 18px;
+  line-height: 18px;
+  text-align: center;
+  font-size: 16px;
+  color: #666666;
+}
+.nav-hd a:hover {
+  color: #ff6700;
+}
+.search {
+  position: relative;
+  float: left;
+  width: 296px;
+  height: 50px;
+  margin-top: 25px;
+}
+.search input {
+  float: left;
+  width: 245px;
+  height: 48px;
+  border: 1px solid #e0e0e0;
+  border-right: 0;
+}
+.search button {
+  float: left;
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+}
+.search button i {
+  font-style: normal;
+  font-family: 'icomoon';
+  font-size: 22px;
+}
+.search button:hover {
+  background-color: #ff6700;
+}
+.search button:hover {
+  color: #fff;
+}
+.search span.top-search {
+  position: absolute;
+  top: 15px;
+  right: 57px;
+  width: 71px;
+  height: 19px;
+  font-size: 12px;
+  color: #757575;
+  background-color: #eeeeee;
+}
+.search span.top-search:hover {
+  background-color: #ff6700;
+}
+.search span.top-search:hover {
+  color: #fff;
+}
+.footer-hd {
+  width: 1220px;
+  height: 80px;
+}
+.footer-hd {
+  border-bottom: 1px solid #ccc;
+}
+.footer-hd span {
+  font-family: 'icomoon';
+  font-size: 22px;
+  color: #666666;
+}
+.footer-hd li {
+  float: left;
+  width: 240px;
+  height: 26px;
+  line-height: 26px;
+  text-align: center;
+  margin-top: 35px;
+  border-right: 1px solid #ccc;
+  /* padding-right: 50px; */
+}
+.footer-hd li.last {
+  margin-right: 0;
+  border-right: 0;
+  padding-right: 0;
+}
+.footer-bd .left {
+  float: left;
+  width: 900px;
+  height: 138px;
+  margin-top: 20px;
+}
+.footer-bd .left dl {
+  float: left;
+  margin-right: 86px;
+  margin-top: 20px;
+}
+.footer-bd .left dt {
+  color: #605751;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.footer-bd .left dd {
+  height: 28px;
+  line-height: 28px;
+  color: #605751;
+  font-size: 12px;
+  cursor: pointer;
+}
+.footer-bd .left dd:hover {
+  color: #ff7842;
+}
+.footer-bd .right {
+  float: left;
+  width: 183px;
+  height: 114px;
+  text-align: center;
+  padding-left: 30px;
+  padding-top: 10px;
+  margin-top: 30px;
+  border-left: 1px solid #605751;
+}
+.footer-bd .right p {
+  font-size: 16px;
+  color: #ff7842;
+}
+.footer-bd .right span {
+  display: inline-block;
+  width: 121px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 12px;
+  color: #ccc;
+}
+.footer-bd .right a {
+  float: left;
+  width: 120px;
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid #ff7842;
+  margin-left: 33px;
+  margin-top: 11px;
+  color: #ff7842;
+}
+header {
+  height: 40px;
+  line-height: 40px;
+  background-color: #333333;
+  text-align: center;
+}
+header .w {
+  position: relative;
+}
+header .w .head_left {
+  float: left;
+  height: 100%;
+}
+header .w .head_left ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+header .w .head_left li {
+  float: left;
+  font-size: 14px;
+  margin-left: 4px;
+  margin-left: 5px;
+}
+header .w .head_left li:hover a {
+  color: #fff;
+}
+header .w .head_left li:nth-child(even) {
+  width: 1px;
+  height: 14px;
+  background-color: #424242;
+}
+header .w .head_right {
+  float: left;
+  height: 100%;
+}
+header .w .head_right ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 180px;
+}
+header .w .head_right ul li {
+  float: left;
+  font-size: 14px;
+  margin-left: 10px;
+}
+header .w .head_right ul li:hover a {
+  color: #fff;
+}
+header .w .shopCar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: right;
+  width: 120px;
+  height: 40px;
+  font-size: 14px;
+}
+header .w .shopCar .buyCar {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+header .w .shopCar .buyCar .car {
+  float: left;
+  width: 40px;
+  height: 40px;
+}
+header .w .shopCar .buyCar .car i {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  font-family: "iconfont";
+  font-size: 20px;
+  color: #ff6700;
+}
+header .w .shopCar_select {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  top: 40px;
+  right: 0;
+  width: 320px;
+  height: 105px;
+  color: #ccc;
+  background-color: #f5f5f5;
+  z-index: 999;
+  font-size: 14px;
+  display: none;
+}
+header .w .shopCar_select p {
+  width: 100%;
+  height: 30px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 105px;
+  text-align: center;
+}
+nav .logo {
+  position: relative;
+  display: block;
+  width: 49px;
+  height: 49px;
+  background-color: #ff6700;
+  margin-top: 30px;
+  overflow: hidden;
+}
+nav .logo::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 49px;
+  height: 49px;
+  background: url("../images/mi-logo.png") no-repeat;
+  transition: all 1s;
+}
+nav .logo::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 49px;
+  width: 49px;
+  height: 49px;
+  background: url("../images/mi-home.png") no-repeat;
+  transition: all 1s;
+}
+nav .logo:hover::before {
+  left: -49px;
+}
+nav .logo:hover::after {
+  left: 0;
+}
+nav .nav_head {
+  width: 700px;
+  height: 100%;
+}
+nav .nav_head ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+nav .nav_head ul li {
+  float: left;
+}
+nav .nav_head ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #333333;
+}
+nav .search {
+  width: 270px;
+  height: 50px;
+  border: 0;
+}
+nav .search input {
+  width: 220px;
+  height: 100%;
+  text-indent: 2em;
+}
+nav .search button {
+  width: 50px;
+  height: 50px;
+  outline: none;
+}
+footer {
+  height: 550px;
+}
+footer .safeMod {
+  width: 100%;
+  height: 100px;
+  border-bottom: 1px solid #ccc;
+}
+footer .safeMod ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+footer .safeMod ul li {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+footer .safeMod ul li a {
+  display: block;
+  width: 100%;
+  height: 60px;
+  text-align: center;
+  border-right: 1px solid #ccc;
+}
+footer .safeMod ul li a i {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  line-height: 60px;
+  font-size: 18px;
+}
+footer .safeMod ul li:nth-child(5) a {
+  border-right: 0;
+}
+footer .helpMod {
+  width: 100%;
+  height: 230px;
+}
+footer .helpMod .helpMod_left {
+  float: left;
+  width: 980px;
+  height: 100%;
+  text-align: center;
+}
+footer .helpMod .helpMod_left ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+footer .helpMod .helpMod_left ul li {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .helpMod .helpMod_left ul li dt {
+  position: absolute;
+  top: 30px;
+  left: 25px;
+  width: 100px;
+  height: 25px;
+  font-size: 18px;
+  padding-left: 20px;
+}
+footer .helpMod .helpMod_left ul li a {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100px;
+  height: 100px;
+  margin-top: 50px;
+}
+footer .helpMod .helpMod_left ul li a dd {
+  font-size: 14px;
+  padding-bottom: 5px;
+}
+footer .helpMod .helpMod_left ul li a dd:hover {
+  color: #ff6b1b;
+}
+footer .helpMod .helpMod_right {
+  display: flex;
+  align-items: center;
+  width: 220px;
+  height: 100%;
+}
+footer .helpMod .helpMod_right .service {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+  height: 160px;
+  text-align: center;
+  border-left: 1px solid #ccc;
+}
+footer .helpMod .helpMod_right .service h3 {
+  color: #ff6b1b;
+  font-weight: 400;
+}
+footer .helpMod .helpMod_right .service p {
+  color: #616161;
+}
+footer .helpMod .helpMod_right .service span {
+  position: relative;
+  width: 120px;
+  height: 40px;
+  border: 1px solid #ff6b1b;
+  border-radius: 4px;
+  text-align: center;
+  margin: 0 auto;
+}
+footer .helpMod .helpMod_right .service span:hover {
+  background-color: #ff6b1b;
+}
+footer .helpMod .helpMod_right .service span:hover a {
+  color: #fff;
+}
+footer .helpMod .helpMod_right .service span i {
+  position: absolute;
+  top: 12px;
+  left: 6px;
+}
+footer .helpMod .helpMod_right .service span a {
+  display: inline-block;
+  width: 80px;
+  height: 40px;
+  line-height: 40px;
+  color: #ff6b1b;
+}
+footer .footer_nav {
+  width: 100%;
+  height: 20px;
+}
+footer .footer_nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+footer .footer_nav li {
+  float: left;
+  font-size: 14px;
+  margin-left: 5px;
+}
+footer .footer_nav li a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+footer .footer_nav li a:hover {
+  color: #ff6700;
+}
+footer .footer_nav li:nth-child(even) {
+  width: 1px;
+  height: 14px;
+  background-color: #424242;
+}
+footer .explain {
+  width: 100%;
+  height: 90px;
+  margin-top: 20px;
+  color: #ccc;
+  font-size: 14px;
+}
+footer .peugeot {
+  display: flex;
+  align-items: center;
+  width: 475px;
+  height: 100px;
+}
+footer .peugeot .ac {
+  width: 170px;
+  height: 58px;
+}
+footer .peugeot .ac a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+footer .peugeot .ac a img {
+  width: 100%;
+  height: 100%;
+}
+footer .eva {
+  width: 260px;
+  height: 30px;
+}
+footer .eva ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+footer .eva ul li {
+  width: 100%;
+  height: 100%;
+}
+footer .eva ul li a {
+  width: 100%;
+  height: 100%;
+}
+footer .eva ul li a img {
+  width: 100%;
+  height: 100%;
+}
+.sideBar {
+  position: fixed;
+  top: 300px;
+  right: 0;
+  width: 80px;
+  height: 450px;
+  text-align: center;
+}
+.sideBar ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.sideBar ul li {
+  width: 100%;
+  height: 100%;
+  border-bottom: 1px solid #ccc;
+  background-color: #fff;
+}
+.sideBar ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.sideBar ul li a i {
+  display: inline-block;
+  width: 100%;
+  height: 40px;
+  font-size: 32px;
+  padding-top: 10px;
+}
+.sideBar ul li a span {
+  display: inline-block;
+  width: 100%;
+}
+.sideBar ul li a:hover span,
+.sideBar ul li a:hover i {
+  color: #ff6700;
+}
+.goTop {
+  position: fixed;
+  top: 780px;
+  right: 0;
+  width: 80px;
+  height: 89px;
+}
+.goTop ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.goTop ul li {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+}
+.goTop ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.goTop ul li a i {
+  display: inline-block;
+  width: 100%;
+  height: 40px;
+  font-size: 30px;
+  padding-top: 10px;
+}
+.goTop ul li a span {
+  display: inline-block;
+  width: 100%;
+}
+.goTop ul li a:hover span,
+.goTop ul li a:hover i {
+  color: #ff6700;
+}
+/*# sourceMappingURL=./common.css.map */
